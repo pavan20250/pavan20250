@@ -9,7 +9,6 @@
 </div>
 
 ###
-<img src="https://raw.githubusercontent.com/pavan20250/pavan20250/output/snake.svg" alt="Snake animation" />
 
 ###
 
