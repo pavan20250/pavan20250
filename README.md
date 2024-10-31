@@ -10,7 +10,7 @@
 
 ###
 
-###
+<img src="https://raw.githubusercontent.com/pavan20250/pavan20250/output/snake.svg" alt="Snake animation" />
 
 ###
 - 💬 Ask me about **react, nextjs**
