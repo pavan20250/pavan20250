@@ -9,8 +9,9 @@
 </div>
 
 ###
+<img src="https://raw.githubusercontent.com/pavan20250/pavan20250/output/snake.svg" alt="Snake animation" />
 
-![Snake animation](https://github.com/pavan20250/pavan20250/raw/output/snake.svg)
+###
 
 ###
 - 💬 Ask me about **react, nextjs**
