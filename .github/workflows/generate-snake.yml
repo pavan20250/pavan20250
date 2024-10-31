@@ -1,0 +1,27 @@
+name: Generate Snake
+
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Generate Snake Animation
+        uses: Platane/snk@v2
+        with:
+          github_user_name: pavan20250 
+          svg_out_path: dist/snake.svg
+
+      - name: Push Snake Animation to Output Branch
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: output
+          build_dir: dist
+          committer_name: github-actions[bot]
+          committer_email: github-actions[bot]@users.noreply.github.com
